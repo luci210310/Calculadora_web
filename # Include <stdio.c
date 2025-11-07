@@ -24,7 +24,29 @@ int main() {
         switch(opcao) {
             case 1:
             pacial= quantidade * 5.0;
-            printf("Você pediu %d Cachorro(s) Quente: R$ %.2F\n", quantidade, parcial);
-
+            printf("Você pediu %d Cachorro(s) Quente: R$ %.2f\n", quantidade parcial)
+            total += parcial;
+            break
+           case 2:
+            parcial = quantidade * 8.0;
+            printf("Você pediu %d X-Salada(s): r$ %.2f\n", quantidade, parcial)
+            total += parcial;
+            break
+           case 3:
+            parcial = quantidade * 4.0;
+            printf("Você pediu %d Refrigerante(s): r$ %.2f\n", quantidade, parcial)
+            total += parcial;
+            break
+           case 4:
+            parcial = quantidade * 6.0;
+            printf("Você pediu %d suco(s) Natural: R$ %.2f\n, quantidade parcial")
+            total += parcial;
+            break 
+           default:
+            printf("Opção inválida! Tente Novamente.\n");
         }
-}
+
+    } while (opcao != 0);
+
+    printf("\n === TOTAL A PAGAR: R$ %.21 ===\n", total):
+    printf( )
